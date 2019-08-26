@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Internet</title>
+    <link rel="stylesheet" href="TheInternet.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="header">
+            <img src="images/globe.png" alt="globe image">
+            <h1>The Inter<span class="spanDarkBlue">net</span></h1>
+            <h2>The World Wide Web</h2>
+        </div>
+        <div class="left">
+            <div class="intro">
+                <p id="introQ">So, what's an <span class="spanRed">Internet?</span></p>
+                <p id="introA">An <span class="spanDarkBlue">Inter</span>connected <span class="spanDarkBlue">Net</span>work of computers all around the world!</p>
+                <button class="topb">WATCH A VIDEO</button>
+                <button class="bottomb">MORE RECSOURCES</button>
+                <hr>
+                <div class="adv">
+                    <img class="ad_background" src="images/ad_background.png" alt="ad">
+                    <p>Reinvent your career in just 14 weeks</p>
+                    <img class="ninja" src="images/ninja.png" alt="ninja">
+                    <button class="ad_button" id="ad_button">Learn More <span>>>></span></button>
+                </div>
+            </div>
+            <div></div>
+        </div>
+        <div class="right">
+            <div class="contact">
+                <img class="home" src="images/home.png" alt="home icon">
+                <p class="DNS">DNS</p>
+                <img class="phone" src="images/phone.png" alt="phone icon">
+                <div class="phoneinfo">
+                    <p>Mon - Fri 9 a.m. - 5 p.m. (EST)</p>
+                    <p class="phoneNum">855.967.3787</p>
+                    <p>International +1.617.963.0555</p>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h3>Clients and Servers</h3>
+                <p>Computers connected to the <a>Web</a> are called <span class="bold">clients</span> and <span class="bold">servers</span>.</p>
+                <ul>
+                    <li><a href="#">Clients</a> are the typical Web user's Internet-connected devices (for example, your computer connected to you Wi-Fi, or your phone connected to your mobile network) and <a href="#">Web-accessing software</a> available on those devices (usually a web browser like Firefox or Chrome).</li>
+                    <li><a href="#">Servers</a> are computers that store <a href="#">webpages</a>, <a href="#">sites</a>, <a href="#">apps</a>. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.</li>
+                </ul>
+                <img class="serverImg" src="images/client_server.jpg" alt="server and client image">
+                <h3>So What Actually Happens?</h3>
+                <ol>
+                    <li>The browser goes to the <a href="#">DNS server</a> and finds the real address of the <a href="#">server</a> that the website lives on.</li>
+                    <li>The browser sends an <a href="#"> HTTP request</a> message to the server asking it to send a copy of the website to the client.</li>
+                    <li>If the server approves the client's request, the server sends the client a <a href="#">"200 OK" message</a>, which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a series of small chunks.</li>
+                    <li>The browser assembles the small chunks into a complete website and displays it to you!</li>
+                </ol>
+                <div class="big3">
+                    <img class="htmlImg" src="images/html.png" alt="HTML image">
+                    <div>
+                        <h3>The Big 3 - HTML, CSS, Javascript</h3>
+                        <p>While the server can process information is many different languages, the files that they serve to the client are <span class="italics">always</span> going to be some combination of HTML, CSS, and JavaScript!</p>
+                        <p>Learn more about the Big 3 <a href="#">here</a>!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

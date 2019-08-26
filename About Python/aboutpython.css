@@ -1,0 +1,187 @@
+/* body *{
+    outline: 1px dotted red;
+
+} */
+body {
+    background-color: grey;
+    margin: auto;
+
+}
+#wrapper{
+    width: 970px;
+    margin: auto;
+}
+li{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    
+}
+
+div.header{
+    padding: 2px;
+    background-color: #245076;
+}
+    div.header img{
+        width: 370px;
+        margin-left: 10px;
+    }
+    div.header div.features{
+        display: inline-block;
+        vertical-align: top;
+        margin: 5px 10px 10px 300px;
+        text-align: right;
+    }
+        div.features p{
+            color: white;
+            margin: 4px 28px 4px 4px;
+            font-size: 14px;
+        }
+        div.features a{
+            color: #dbbd3d;
+            /* color: rgb(179, 179, 0); */
+        }
+        div.features p span{
+            color: black;
+        }
+div.search{
+    padding: 10px 25px;
+    background-color: #444444;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(34, 34, 34, 0.750);
+}
+#search{
+    width: 150px;
+    margin: 4px;
+    padding: 7px;
+    text-align: center;
+}
+#submitsearch{
+    padding: 5px 7px;
+    color: white;
+    background-color: #245076;
+    border-radius: 5px;
+}
+    div.header ul{
+        /* display: inline-block; */
+        /* background-color: #487ead; */
+        background-image: linear-gradient(#487ead, #558bb9, #487ead);
+        margin: 2px 100px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 6px;
+        box-shadow: 2px 2px rgba(34, 34, 34, 0.750);
+    }
+    div.header li.menu{
+        display: inline-block;
+        font-size: 20px;
+        /* padding: 0px 15px; */
+        margin: 0px 15px;
+    }
+div.top{
+    background-color: #245076;
+    min-height: 300px;
+    text-align: center;
+}
+    div.top div.left{
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 20px; 
+    }
+    /* div.top div.left ul{ */
+        /* display: inline-block; */
+        /* font-size: 17px; */
+        /* padding: 3px; */
+    /* } */
+    div.top div.left li{
+        /* display: inline-block; */
+        font-size: 17px;
+        padding: 3px;
+        list-style-position: inside;
+        text-decoration: underline;
+    }
+    div.top div.right{
+        width: 600px;
+        display: inline-block;
+    }
+        div.top div.right p{
+            font-size: 14px;
+            /* margin: 3px; */
+
+        }
+        div.top div.right p#zen{
+            font-size: 17px;
+            margin: 6px 0px 0px 35px;
+
+        }
+        div.top div.right ul{
+            list-style: none;
+            margin-bottom: 3px;
+        }
+        div.top div.right li{
+            font-style: italic;
+            color: #dbbd3d;
+            font-size: 19px;
+            padding: 3px;
+        }
+div.bottom{
+    background-color: white;
+    min-height: 200px;
+    text-align: center;
+}
+    div.bottom div{
+        width: 420px;
+        display: inline-block;
+        vertical-align: top;
+        margin: 15px 8px 8px 8px;
+        padding: 10px 40px 20px 0px;
+        border-top: 4px solid #487ead;
+    }
+    div.bottom div a{
+        color: #7faed9;
+        text-decoration: none;
+    }
+    div.bottom li{
+        list-style: square;
+        color: black;
+    }
+    div.bottom li a{
+        color: #7faed9;
+    }
+    div.bottom p{
+        color: black;
+        font-size: 14px;
+    }
+div.footer{
+    background-image: linear-gradient(#245076, #3274ac);
+    min-height: 100px;
+    text-align: center;
+    padding: 5px;
+}
+    div.footer ul{
+        display: inline-block;
+        margin: 50px 0px 10px 0px;
+    }
+    div.footer li{
+        padding: 8px;
+        color: rgba(255, 255, 255, 0.500);
+        display: inline-block;
+        font-size: 14pt;
+    }
+    div.footer p{
+        font-size: 8pt;
+        color: rgba(255, 255, 255, 0.500);
+        margin: 0px;
+    }
+
+    .menu:hover{
+        background-color: white;
+    }

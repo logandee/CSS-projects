@@ -1,0 +1,81 @@
+<!-- HTML
+head, title, meta description, 
+body, div, a, p, h1, ul, li, table (including thead, td, tbody, tr)
+At the bottom of the page, create a fake survey form that uses the following tags:
+form, select, input type="text", input type="checkbox", input type="radio", input type="submit".-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Awesome and Very Real Blog</title>
+    <meta name="description" content="A really awesome blog about running and throwing stuff">
+
+</head>
+<body>
+    <div>
+        <h1>The Decathlete Life</h1>
+        <p>Decathletes do a lot of stuff. The often throw things. Here are a few things that they like to throw:</p>
+        <ul>
+            <li>Javelin</li>
+            <li>Discus</li>
+            <li>Shot</li>
+        </ul>
+        <p>Check out all the events that <a href="practice.html">Decathletes</a> do:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Day 1</th>
+                    <th>Day 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>100M</td>
+                    <td>110M Hurdles</td>
+                </tr>
+                <tr>
+                    <td>Long Jump</td>
+                    <td>Discus</td>
+                </tr>
+                <tr>
+                    <td>Shot Put</td>
+                    <td>Pole Vault</td>
+                </tr>
+                <tr>
+                    <td>High Jump</td>
+                    <td>Javelin</td>
+                </tr>
+                <tr>
+                    <td>400M</td>
+                    <td>1500M</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <form action="to place" method="somehow">
+        <p>How likely are you to participate in a decathlon?
+            <select>
+                <option value="Highly">Highly</option>
+                <option value="Maybe">Maybe</option>
+                <option value="Unlikly">Unlikly</option>
+            </select>
+        </p>
+        <p>Which is you favorite event?</p>
+        <input type="radio" id="javelin" name="gender" value="javelin">
+        <label for="javelin">Javelin</label>
+        <input type="radio" id="pole_vault" name="gender" value="pole_vault">
+        <label for="pole_vault">Pole vault</label>
+        <input type="radio" id="sprints" name="gender" value="sprints">
+        <label for="sprints">Sprints</label>
+        <p>Would you like to subscribe?
+            <input type="checkbox" value="subscribe">
+        </p>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>

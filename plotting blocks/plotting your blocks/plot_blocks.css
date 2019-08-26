@@ -1,0 +1,51 @@
+*{
+    margin: 5px;
+}
+#wrapper{
+    margin: 20px;
+    padding: 10px;
+    background-color: silver;
+    width: 500px;
+}
+.red{
+    margin: 0px;
+background-color: red;
+display: inline-block;
+min-height: 100px;
+width: 210px;
+
+}
+.container{
+/*     text-align: center; */
+    display: flex;
+    justify-content: space-between;
+}
+/* #rightRed{
+    margin-left: 90px;
+} */
+.blue{
+    background-color: blue;
+    min-height: 100px;
+}
+.yellow{
+    margin: 0px;
+    background-color: yellow;
+    display: inline-block;
+    min-height: 100px;
+    width: 150px;
+}
+.green{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* text-align: left; */
+    background-color: green;
+
+    
+}
+.purple{
+    background-color: purple;
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+}

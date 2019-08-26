@@ -1,0 +1,116 @@
+/* body *{
+    outline: 2px red dotted;
+} */
+#wrapper{
+    width: 900px;
+    margin: auto;
+    background-color: rgb(71, 42, 71);
+}
+div.header{
+    background-color: white;
+}
+h1{
+    display: inline-block;
+}
+h2{
+    margin-left: 350px;
+    display: inline-block;
+}
+div.top img{
+    padding: 4px;
+    margin: 15px;
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    /* border: 3px solid rgb(236, 236, 236); */
+    background-color: rgb(236, 236, 236);
+}
+div.top div{
+    margin: 15px;
+    width: 404px;
+    height: 267px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgb(236, 236, 236);
+
+}
+    div.top div p{
+        text-align: justify;
+        margin: 10px 5px;
+    }
+    div.top div a{
+        margin: 10px 5px;
+    }
+div.top div h3{
+    display: block;
+    background-color: rgb(134, 134, 134);
+    color: white;
+    padding: 3px;
+    margin: 0px;
+}
+div.content{
+    min-height: 300px;
+}
+div.content div{
+    vertical-align: top;
+    display: inline-block;
+    width: 267px;
+    min-height: 200px;
+    margin: 15px;
+    background-color: rgb(236, 236, 236);
+    padding-bottom: 4px;
+}
+    div.content div h3{
+        display: block;
+        background-color: rgb(134, 134, 134);
+        color: white;
+        padding: 3px;
+        margin: 0px;
+    }
+    div.content div img{
+        width: 267px;
+    }
+    div.content div p{
+        height: 180px;
+        text-align: justify;
+        margin: 5px;
+        
+    }
+    div.content div a{
+        display: block;
+        background-color: #407d61;
+        border: 1px solid #122b1f;
+        color: white;
+        border-radius: 5px;
+        padding: 2px 5px;
+        text-align: center;
+        text-decoration: none;
+        width: fit-content;
+        margin: auto;
+    }
+    div.content div div.img_holder{
+        margin: 0;
+        min-height: 50px;
+    }
+    div.img_holder img.tech{
+        width: 50px;
+    }
+    div.footer{
+        background-color: white;
+    }
+div.footer{
+    text-align: center;
+    padding: 2px;
+}
+div.footer img{
+    width: 20px;
+    /* margin: 3px 0px 0px 0px; */
+}
+div.footer p{
+    margin: 4px;
+
+}
+div.footer a{
+    color: black;
+    vertical-align: top;
+}
